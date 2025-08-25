@@ -37,7 +37,7 @@ enum VisualizationMode {
     SmokeSpeed,
 }
 
-const RECORDING_INTERVAL: u8 = 4;
+const RECORDING_INTERVAL: u8 = 8;
 const DEBUG_MODE: bool = false;
 
 impl Visualization {
