@@ -12,7 +12,7 @@ pub struct Simulation {
     p: Array2D<f64>,
     smoke: Array2D<f64>,
 }
-const DRAW_OBSTACLE: bool = false;
+const DRAW_OBSTACLE: bool = true;
 const WITH_GRAVITY: bool = false;
 
 const OVERRELAXATION_FACTOR: f64 = 1.94;
